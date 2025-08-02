@@ -4,7 +4,7 @@ This project is an extension of a previously developed strong password generator
 
 ## Live API
 
-- **Base URL**: []()  
+- **Base URL**: [https://strong-password-api.onrender.com/password](https://strong-password-api.onrender.com/password)  
 - **Swagger UI**: []()
 
 ## Overview
