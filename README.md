@@ -5,7 +5,7 @@ This project is an extension of a previously developed strong password generator
 ## Live API
 
 - **Base URL**: [https://strong-password-api.onrender.com/password](https://strong-password-api.onrender.com/password)  
-- **Swagger UI**: []()
+- **Swagger UI**: [https://strong-password-api.onrender.com/swagger](https://strong-password-api.onrender.com/swagger)
 
 ## Overview
 
@@ -38,8 +38,8 @@ Este projeto é uma extensão de um gerador de senha forte que eu já havia feit
 
 ## API Online
 
-- **URL Base**: []()  
-- **Swagger UI**: []()
+- **Base URL**: [https://strong-password-api.onrender.com/password](https://strong-password-api.onrender.com/password)  
+- **Swagger UI**: [https://strong-password-api.onrender.com/swagger](https://strong-password-api.onrender.com/swagger)
 
 ## Visão Geral
 
