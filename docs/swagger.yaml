@@ -1,0 +1,24 @@
+basePath: /
+host: localhost:8080
+info:
+  contact: {}
+  description: Um gerador de senha aleatória segura.
+  title: API Gerador de Senha Forte
+  version: "1.0"
+paths:
+  /password:
+    get:
+      description: Retorna uma senha aleatória com letras, números e símbolos
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Gera uma senha forte
+      tags:
+      - Senha
+swagger: "2.0"
