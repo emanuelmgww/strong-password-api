@@ -1,4 +1,7 @@
 {
+    "schemes": [
+        "https"
+    ],
     "swagger": "2.0",
     "info": {
         "description": "Um gerador de senha aleatória segura.",
@@ -6,8 +9,7 @@
         "contact": {},
         "version": "1.0"
     },
-    "host": "localhost:8080",
-    "basePath": "/",
+    "host": "strong-password-api.onrender.com/",
     "paths": {
         "/password": {
             "get": {

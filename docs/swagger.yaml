@@ -1,5 +1,4 @@
-basePath: /
-host: localhost:8080
+host: strong-password-api.onrender.com/
 info:
   contact: {}
   description: Um gerador de senha aleatória segura.
@@ -21,4 +20,6 @@ paths:
       summary: Gera uma senha forte
       tags:
       - Senha
+schemes:
+- https
 swagger: "2.0"
