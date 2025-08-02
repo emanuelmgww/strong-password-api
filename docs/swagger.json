@@ -1,0 +1,36 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "Um gerador de senha aleatória segura.",
+        "title": "API Gerador de Senha Forte",
+        "contact": {},
+        "version": "1.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/",
+    "paths": {
+        "/password": {
+            "get": {
+                "description": "Retorna uma senha aleatória com letras, números e símbolos",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "Senha"
+                ],
+                "summary": "Gera uma senha forte",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
