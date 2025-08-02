@@ -12,8 +12,8 @@ import (
 // @title API Gerador de Senha Forte
 // @version 1.0
 // @description Um gerador de senha aleatória segura.
-// @host localhost:8080
-// @BasePath /
+// @host strong-password-api.onrender.com/
+// @schemes https
 func main() {
 
 	app := fiber.New()
